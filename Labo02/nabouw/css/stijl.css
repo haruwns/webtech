@@ -1,0 +1,18 @@
+:root {
+  --color-paper: #14110f;
+  --color-ink: #f3ede4;
+  --color-muted: #a89f93;
+  --color-accent: #e8b04b;
+  --color-zebra: #221d19;
+  --font-body: Georgia, serif;
+  --font-heading: "Trebuchet MS", Verdana, sans-serif;
+}
+
+body {
+  background-color: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-body);
+  font-size: 1.125rem;
+  line-height: 1.7;
+  text-align: center;
+}
