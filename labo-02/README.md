@@ -19,15 +19,15 @@ Vul de eerste twee kolommen in vóór je de pagina opent. Trede: herkomst, speci
 | vraag | mijn voorspelling (kleur) | beslissende trede | uitkomst in de browser | juist? |
 |---|---|---|---|---|
 | 1 | green | specifiteit | green | true |
-| 2 | blue | volgorde | blue| |
+| 2 | blue | volgorde | blue| true |
 | 3 | red | specificiteit | red | true |
 | 4 | red | specificiteit | red | true |
 | 5 | blue | specificiteit | blue | true |
 | 6 | blue | specificiteit | blue | true |
 | 7 | red | herkomst | red | true |
-| 8 | red | specificiteit | blue | true |
+| 8 | red | specificiteit | blue | false |
 | 9 | red | herkomst| red | true |
-| 10 | green | | green | true |
+| 10 | green | specificiteit | green | true |
 
 Bij welke vraag zat je fout, en wat was de reden? (Alles juist? Welke vraag duurde het langst, en waarom?)
 ik verstond niet waarvoor "section" dient en ik dach dat bvb:section class="vraag v9" maar een class aanmaakt maar blijkbaar maakt het twee apart classes(vraag en v9) 
