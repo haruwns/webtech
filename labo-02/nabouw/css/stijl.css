@@ -1,0 +1,75 @@
+:root {
+  --color-paper: #fbf7f0;
+  --color-ink: #2b2b2b;
+  --color-gedempt: #6b6b6b;
+  --color-accent: #b5451b;
+  --color-zebra: #f1e9dc;
+  --font-tekst: Verdana;
+  --font-koppen: Georgia;
+}
+
+body{
+    background-color: var(--color-paper);
+    border: .2em solid red;
+    font-family: var(--font-tekst);
+}
+
+header h1{
+    color: var(--color-accent);
+    font-weight: lighter;
+    font-family: var(--font-koppen);
+}
+
+header .slogan{
+    font-style: italic;
+    color: var(--color-gedempt);
+    font-weight: lighter;
+}
+
+header nav li a{
+    color: var(--color-accent);
+    font-weight: bold;
+    font-family: var(--font-tekst);
+    text-decoration: none;
+}
+
+header nav li a:hover, header nav li a:focus{
+    color: var(--color-ink);
+}
+article h2{
+    font-family: var(--font-koppen);
+    font-weight: lighter;
+}
+article h3{
+    color: var(--color-gedempt);
+    font-weight: lighter;
+}
+.kaart li:nth-child(odd){
+    background-color: var(--color-zebra);
+}
+#bonen + p>a{
+    color: var(--color-accent);
+
+    &:hover,:focus{
+        color: var(--color-paper);
+        background-color: var(--color-accent);}
+    
+}
+#praktisch + p>strong{
+    color: var(--color-accent);
+    font-weight: bold;
+}
+footer{
+    color: var(--color-gedempt);
+    text-align: center;
+}
+footer a{
+    color: var(--color-gedempt);
+
+    &:hover,:focus{
+        color: var(--color-accent);
+    }
+
+        
+    
+}

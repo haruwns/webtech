@@ -34,8 +34,8 @@ ik verstond niet waarvoor "section" dient en ik dach dat bvb:section class="vraa
 
 ## 4. De nabouw
 
-- Welke selector koos je voor de links in de navigatie, en waarom geen class?
-- Welke regel kostte je het meeste tijd, en wat was uiteindelijk de oorzaak?
+- Welke selector koos je voor de links in de navigatie, en waarom geen class? ik koos "header .slogan"
+- Welke regel kostte je het meeste tijd, en wat was uiteindelijk de oorzaak? hover en focus omdat ik tussen "a" en ":" nen extra spatie heb getyped
 
 ## 6. Je site
 
