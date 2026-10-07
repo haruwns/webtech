@@ -39,7 +39,7 @@ ik verstond niet waarvoor "section" dient en ik dach dat bvb:section class="vraa
 
 ## 6. Je site
 
-- Welke drie waarden staan in je tokenblok, en waarom die?
+- 2 maal text-font, 2 maal kleur, font-size en als laaste: een "border" shortcut omdat ik graag eerst check of ik met de juiste element bezig ben
 - Wat verandert er in je site als je één token wijzigt?
 
 ## Thuis: R2.3 (met AI)
