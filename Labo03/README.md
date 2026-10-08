@@ -1,6 +1,6 @@
 # Labo 3 - reflecties
 
-Naam: (Harun Verberckt)
+Naam: (jouw naam)
 
 ## 1. Kleurenstalen
 
