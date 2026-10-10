@@ -2,7 +2,47 @@
 
 /* === tokens === */
 :root {
-
+    --border-kirmizi: 0.1rem solid red;
+    --border-yesil: 0.1rem solid green;
+    --color-oranje: #ec4b03;
+    --color-paars: #b99ec1;
+    --color-geel: #f9b700;
 }
 
 /* === your rules === */
+html{
+    background-color: white;
+}
+body{
+    border: 0.75rem solid black;
+    height: 90vh;
+    margin: 5vh auto;
+    width: 90vh;
+    background-color: var(--color-oranje);
+ 
+}
+body main{
+    border: .75rem solid black;
+    border-radius: 50%;
+    background-color: var(--color-paars);
+    height: 70%;
+    width: 70%;
+    margin: 15%;
+    overflow: hidden;
+}
+div{
+    width: 100%;
+    height: 100%;
+}
+main h1{
+    border: .75rem solid black;
+    margin: -7%;
+    background-color: var(--color-geel);
+    text-align: center;
+    width: 90%;
+    height: 90%;
+    font-weight: bolder;
+    padding-top: 40%;
+    /* er klopts iets niet met de padding ma ik weet niet wat*/
+    font-size: 5rem;
+}
