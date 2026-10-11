@@ -2,7 +2,106 @@
 
 /* === tokens === */
 :root {
-
+    --border-kirmizi: 0.1rem solid red;
+    --border-yesil: 0.1rem solid green;
+    --color-oranje: #ec4b03;
+    --color-paars: #b99ec1;
+    --color-geel: #f9b700;
+    --color-banner: #c8b8ff;
+    --color-link: #5551ff;
+    --color-hero: #779cee;
 }
 
 /* === your rules === */
+html{
+    margin: 1rem;
+}
+.banner{
+    background-color: var(--color-banner);
+    text-align: center;
+    padding: 1rem;
+}
+.banner a{
+    color:var(--color-link);
+}
+.banner a:hover, .banner a:focus{
+    color: #333333;
+    text-decoration: underline;
+}
+
+
+
+header ul{
+    margin: 0rem;
+    padding: 1rem;
+    list-style: none;
+    text-align: right;
+}
+header ul>li{
+    display: inline;
+    color: black;
+    margin: .75rem;
+}
+ul>li a{
+    color: black;
+    text-decoration: none;
+}
+ul>li a:hover, ul>li a:focus{
+    color: #333333;
+    text-decoration: underline;
+}
+
+
+
+
+main{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--color-hero);
+    height: 80vh;
+}
+
+main article{
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 4rem;
+    padding: 3rem;
+}
+article .bovenkop{
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    font-weight: ligh;
+}
+article h1{
+    font-size: 2.75rem;
+    margin-bottom: 1rem;
+    font-weight: bolder;
+    width: 80%;
+}
+article p{
+    margin-bottom: 2.5rem;
+    font-size: 1.25rem;
+    width: 65%;
+}
+article a{
+    text-decoration: none;
+    border: 0.25rem solid black;
+    background-color: black;
+    color: white;
+    padding: .4rem .8rem;
+    border-radius: .5rem;
+}
+article a:hover, article a:focus{
+    border: 0.25rem solid #333333;
+    background-color: #333333;
+}
+
+main div{
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 4rem;
+}   
+div img{
+    width: 50%;
+}
