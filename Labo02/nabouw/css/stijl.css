@@ -69,7 +69,4 @@ footer a{
     &:hover,:focus{
         color: var(--color-accent);
     }
-
-        
-    
 }
