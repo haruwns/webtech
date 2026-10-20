@@ -5,7 +5,10 @@ Naam: (Harun Verberckt)
 ## 1. Drie kolommen
 
 - Op welk element staat `display: flex`, en op welke elementen staat `flex`?
+display: flex op main
+flex op div childs
 - Waarom staan die twee niet op hetzelfde element?
+display: flex heeft te maken met de layout-container element, flex met de kindere
 
 ## 2. Navigatiebalk
 

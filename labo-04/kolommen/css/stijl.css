@@ -2,7 +2,40 @@
 
 /* === tokens === */
 :root {
-
+    --border-kirmizi: 0.1rem solid red;
+    --border-yesil: 0.1rem solid green;
 }
 
 /* === your rules === */
+main{
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+    margin: 10vh 4vh;
+    gap: 4vh;
+    
+}
+div:nth-child(1){
+    background-color: darkturquoise;
+    color: white;
+    font-size: 4rem;
+    font-family: Arial;
+    flex: 1;
+    display: grid; place-items: center;
+}
+div:nth-child(2){ 
+    background-color: darkviolet;
+    color: white;
+    font-size: 4rem;
+    font-family: Arial;
+    flex: 2;
+    display: grid; place-items: center;
+}
+div:nth-child(3){
+    background-color: deepskyblue;
+    color: white;
+    font-size: 4rem;
+    font-family: Arial;
+    flex: 1;
+    display: grid; place-items: center;
+}
