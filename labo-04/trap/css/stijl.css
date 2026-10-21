@@ -2,7 +2,55 @@
 
 /* === tokens === */
 :root {
-
+    --border-kirmizi: 0.1rem solid red;
+    --border-yesil: 0.1rem solid green;
 }
 
 /* === your rules === */
+main{
+    display: grid;
+    grid-template-columns: repeat(4, 1rf);
+    grid-template-rows: repeat(4, 1rf);
+    font-family: Arial;
+    font-weight: bolder;
+}
+.trede:nth-child(1){
+    background-color: #1446a0;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    height: 25vh;
+    font-size: 3rem;
+    color: white;
+    display: grid;
+    place-items: center;
+}
+.trede:nth-child(2){
+    background-color: #db3069;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    height: 25vh;
+    font-size: 3rem;
+    color: white;
+    display: grid;
+    place-items: center;
+}
+.trede:nth-child(3){
+    background-color: #f5d547;
+    grid-column: 3/4;
+    grid-row: 3/4;
+    height: 25vh;
+    font-size: 3rem;
+    color: white;
+    display: grid;
+    place-items: center;
+}
+.trede:nth-child(4){
+    background-color: #ebebd3;
+    grid-column: 4/5;
+    grid-row: 4/5;
+    height: 25vh;
+    font-size: 3rem;
+    color: black;
+    display: grid;
+    place-items: center;
+}
