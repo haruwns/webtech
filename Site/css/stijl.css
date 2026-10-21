@@ -1,24 +1,58 @@
 :root{
-    --font-heading: Verdana;
-    --font-body: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    --color-gedempt: #6b6b6b;
-    --color-accent: #b5451b;
-    --font-size: 1rem;
-    --debug-border: 0.1rem solid red;
+    --border-kirmizi: 0.1rem solid red;
+    --border-yesil: 0.1rem solid green;
+    --birder-siyah: 0.1rem solid black;
+    --border-mavi: 0.1rem solid blue;
+}
+body{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+}
+header{
+    background-color: #1f3a2e;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0rem 2rem;
+}
+header>h1{
+    color: #FFD700
+}
+header ul{
+    list-style: none;
+    display: flex;
+    gap: 1rem;
 }
 
-body{
-    font-family: var(--font-body);
-    border: var(--debug-border);
-    font-size: 1rem;
-}
-nav ul>li a{
-    padding: 0.1rem 0.3rem;
+header a{
     text-decoration: none;
-    color: var(--color-accent);
-    &:hover,:focus{
-        color: white;
-        background-color: black;
-        border-radius: 0.2rem;
-    };
+    color: #e6b53c;
+    padding: .5rem 1rem;
+}
+header a:hover, header a:focus{
+    background-color: #e6b53c;
+    color: #1f3a2e;
+    border-radius: .5rem;
+}
+
+main{
+    margin-left: auto;
+    margin-right: auto;
+    width: 60rem;
+}
+
+main img{
+    height: 15vh;
+}
+
+
+
+
+
+footer{
+    background-color: #1f3a2e;
+    color: white;
+    text-align: center;
+    padding: 1rem 2rem;
 }
